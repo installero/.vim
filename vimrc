@@ -80,3 +80,8 @@ endif
 " Autocomplete
 set wildmenu                   " great command-line completion, use '<Tab>' to move around and `<CR>` to validate
 set completeopt=menuone
+
+" export vim-plug list
+if filereadable(expand("~/.vim/plug-list.vim"))
+  source ~/.vim/plug-list.vim
+endif
