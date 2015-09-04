@@ -63,6 +63,13 @@ set hlsearch                   " highlight search results
 set ignorecase                 " ignore case while searching
 set smartcase                  " override ignorecase while using capitals
 
+" Appearance
+if $COLORTERM == 'gnome-terminal'
+   set t_Co=256
+endif
+
+colorscheme apprentice
+
 " Change coursor shape (for some terminals only)
 if has("autocmd")
   au InsertEnter * silent execute "!gconftool-2 --type string --set /apps/gnome-terminal/profiles/Default/cursor_shape ibeam"
@@ -85,9 +92,6 @@ set completeopt=menuone
 if filereadable(expand("~/.vim/plug-list.vim"))
   source ~/.vim/plug-list.vim
 endif
-
-" colorscheme
-colorscheme candypaper
 
 " Navigation
 runtime macros/matchit.vim " enables % jumping with intelligence (<body> → </body>, do → end)
