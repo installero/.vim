@@ -88,3 +88,6 @@ endif
 
 " colorscheme
 colorscheme candypaper
+
+" Navigation
+runtime macros/matchit.vim " enables % jumping with intelligence (<body> → </body>, do → end)
