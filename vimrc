@@ -85,3 +85,6 @@ set completeopt=menuone
 if filereadable(expand("~/.vim/plug-list.vim"))
   source ~/.vim/plug-list.vim
 endif
+
+" colorscheme
+colorscheme candypaper
