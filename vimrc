@@ -53,7 +53,7 @@ set foldnestmax=3              " deepest fold is 3 levels
 set nofoldenable               " dont fold by default
 
 " Scrolls
-set scrolloff=8         "Start scrolling when we're 8 lines away from margins
+set scrolloff=3         "Start scrolling when we're 8 lines away from margins
 set sidescrolloff=15
 set sidescroll=1
 
@@ -65,7 +65,7 @@ set smartcase                  " override ignorecase while using capitals
 
 " Appearance
 if $COLORTERM == 'gnome-terminal'
-   set t_Co=256
+  set t_Co=256
 endif
 
 colorscheme apprentice
