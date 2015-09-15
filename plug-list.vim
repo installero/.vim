@@ -6,11 +6,14 @@ Plug 'ervandew/supertab'
 Plug 'kien/ctrlp.vim'
 Plug 'bogado/file-line'
 
-" Rails-specific
+" Rails
 Plug 'vim-ruby/vim-ruby'
 Plug 'tpope/vim-rails'
 
-" HTML-specific
+" Git
+Plug 'tpope/vim-fugitive'
+
+" HTML
 Plug 'mattn/emmet-vim'
 
 call plug#end()
