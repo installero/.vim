@@ -85,7 +85,8 @@ if &term =~ "xterm\\|rxvt"
 endif
 
 " Autocomplete
-set wildmenu                   " great command-line completion, use '<Tab>' to move around and `<CR>` to validate
+set wildmenu                      " great command-line completion, use '<Tab>' to move around and `<CR>` to validate
+set wildignore+=*/tmp/*,*/cache/* " ignore some stuff
 set completeopt=menuone
 
 " export vim-plug list
@@ -95,3 +96,9 @@ endif
 
 " Navigation
 runtime macros/matchit.vim " enables % jumping with intelligence (<body> → </body>, do → end)
+
+" Plugins configuration
+
+" ctrlp.vim
+let g:ctrlp_map = '<c-f>'
+map <c-b> :CtrlPBuffer<CR>
