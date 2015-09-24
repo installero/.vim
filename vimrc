@@ -89,16 +89,21 @@ set wildmenu                      " great command-line completion, use '<Tab>' t
 set wildignore+=*/tmp/*,*/cache/* " ignore some stuff
 set completeopt=menuone
 
+" Navigation
+runtime macros/matchit.vim " enables % jumping with intelligence (<body> → </body>, do → end)
+
+" Ctags
+set tags=./tags;/
+
 " export vim-plug list
 if filereadable(expand("~/.vim/plug-list.vim"))
   source ~/.vim/plug-list.vim
 endif
 
-" Navigation
-runtime macros/matchit.vim " enables % jumping with intelligence (<body> → </body>, do → end)
-
 " Plugins configuration
 
 " ctrlp.vim
 let g:ctrlp_map = '<c-f>'
-map <c-b> :CtrlPBuffer<CR>
+
+" vim-rails
+let g:rails_ctags_arguments = '--languages=ruby . $(bundle list --paths)'
