@@ -7,6 +7,12 @@ Plug 'kien/ctrlp.vim'
 Plug 'bogado/file-line'
 Plug 'scrooloose/nerdcommenter'
 
+" Snipmate
+Plug 'tomtom/tlib_vim'
+Plug 'MarcWeber/vim-addon-mw-utils'
+Plug 'garbas/vim-snipmate'
+Plug 'honza/vim-snippets'
+
 " Rails
 Plug 'vim-ruby/vim-ruby'
 Plug 'tpope/vim-rails'
