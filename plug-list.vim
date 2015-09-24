@@ -5,6 +5,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'ervandew/supertab'
 Plug 'kien/ctrlp.vim'
 Plug 'bogado/file-line'
+Plug 'scrooloose/nerdcommenter'
 
 " Rails
 Plug 'vim-ruby/vim-ruby'
