@@ -82,6 +82,10 @@ runtime macros/matchit.vim " enables % jumping with intelligence (<body> → </b
 " Ctags
 set tags=./tags;/
 
+" "line" object (from the first non-whitespace character to the last)
+:vnoremap il :<c-u>normal! ^vg_<cr>
+:onoremap il :normal vil<cr>
+
 " Plugins
 " export vim-plug list
 if filereadable(expand("~/.vim/plug-list.vim"))
