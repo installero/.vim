@@ -89,6 +89,9 @@ set tags=./tags;/
 " Double Esc saves the file in any mode
 map <Esc><Esc> :w<CR>
 
+" // searches for marked text
+vnoremap // y/<C-R>"<CR>
+
 " Plugins
 " export vim-plug list
 if filereadable(expand("~/.vim/plug-list.vim"))
