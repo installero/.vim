@@ -23,4 +23,7 @@ Plug 'tpope/vim-fugitive'
 " HTML
 Plug 'mattn/emmet-vim'
 
+" JS
+Plug 'kchmck/vim-coffee-script'
+
 call plug#end()
