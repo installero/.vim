@@ -6,6 +6,7 @@ Plug 'ervandew/supertab'
 Plug 'kien/ctrlp.vim'
 Plug 'bogado/file-line'
 Plug 'scrooloose/nerdcommenter'
+Plug 'cohama/lexima.vim'
 
 " Snipmate
 Plug 'tomtom/tlib_vim'
