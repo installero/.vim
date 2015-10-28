@@ -87,7 +87,7 @@ set tags=./tags;/
 :onoremap il :normal vil<cr>
 
 " Double Esc saves the file in any mode
-map <Esc><Esc> :w<CR>
+" map <Esc><Esc> :w<CR>
 
 " // searches for marked text
 vnoremap // y/<C-R>"<CR>
@@ -103,3 +103,9 @@ let g:ctrlp_map = '<c-f>'
 
 " vim-rails
 let g:rails_ctags_arguments = '--languages=ruby . $(bundle list --paths)'
+
+" lexima.vim
+call lexima#add_rule({'char': '«', 'input_after': '»'})
+
+" nerdcommenter
+let g:NERDSpaceDelims = 1
