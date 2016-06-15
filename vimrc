@@ -100,3 +100,9 @@ let g:ctrlp_map = '<c-f>'
 
 " vim-rails
 let g:rails_ctags_arguments = '--languages=ruby . $(bundle list --paths)'
+
+" lexima.vim
+call lexima#add_rule({'char': '«', 'input_after': '»'})
+
+" nerdcommenter
+let g:NERDSpaceDelims = 1
