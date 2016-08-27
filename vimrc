@@ -92,6 +92,10 @@ set tags=./tags;/
 " // searches for marked text
 vnoremap // y/<C-R>"<CR>
 
+" Highlights long strings of code
+highlight ColorColumn ctermbg=22
+set colorcolumn=81
+
 " Plugins
 " export vim-plug list
 if filereadable(expand("~/.vim/plug-list.vim"))
