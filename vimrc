@@ -86,9 +86,6 @@ set tags=./tags;/
 :vnoremap il :<c-u>normal! ^vg_<cr>
 :onoremap il :normal vil<cr>
 
-" Double Esc saves the file in any mode
-" map <Esc><Esc> :w<CR>
-
 " // searches for marked text
 vnoremap // y/<C-R>"<CR>
 
