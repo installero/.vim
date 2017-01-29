@@ -21,6 +21,8 @@ Plug 'tpope/vim-rails'
 
 " Git
 Plug 'tpope/vim-fugitive'
+Plug 'mattn/webapi-vim'
+Plug 'mattn/gist-vim'
 
 " HTML
 Plug 'mattn/emmet-vim'

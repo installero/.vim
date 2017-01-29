@@ -110,3 +110,9 @@ call lexima#add_rule({'char': '«', 'input_after': '»'})
 
 " nerdcommenter
 let g:NERDSpaceDelims = 1
+
+" gist-vim
+let g:gist_post_private = 1
+let g:gist_show_privates = 1
+let g:gist_detect_filetype = 1
+let g:gist_open_browser_after_post = 1
