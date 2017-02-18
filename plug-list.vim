@@ -8,6 +8,7 @@ Plug 'bogado/file-line'
 Plug 'scrooloose/nerdcommenter'
 Plug 'cohama/lexima.vim'
 Plug 'terryma/vim-multiple-cursors'
+Plug 'vim-syntastic/syntastic'
 
 " Snipmate
 Plug 'tomtom/tlib_vim'
