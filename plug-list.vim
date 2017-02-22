@@ -31,4 +31,7 @@ Plug 'mattn/emmet-vim'
 " JS
 Plug 'kchmck/vim-coffee-script'
 
+" Elixir
+Plug 'elixir-lang/vim-elixir'
+
 call plug#end()

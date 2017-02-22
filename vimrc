@@ -101,6 +101,9 @@ endif
 
 " ctrlp.vim
 let g:ctrlp_map = '<c-f>'
+let g:ctrlp_custom_ignore = {
+  \ 'dir': 'node_modules',
+  \ }
 
 " vim-rails
 let g:rails_ctags_arguments = '--languages=ruby . $(bundle list --paths)'
