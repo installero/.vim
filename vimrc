@@ -102,7 +102,7 @@ endif
 " ctrlp.vim
 let g:ctrlp_map = '<c-f>'
 let g:ctrlp_custom_ignore = {
-  \ 'dir': 'node_modules',
+  \ 'dir': 'node_modules\|deps\|_build'
   \ }
 
 " vim-rails
