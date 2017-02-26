@@ -9,6 +9,7 @@ Plug 'scrooloose/nerdcommenter'
 Plug 'cohama/lexima.vim'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'vim-syntastic/syntastic'
+Plug 'bronson/vim-trailing-whitespace'
 
 " Snipmate
 Plug 'tomtom/tlib_vim'
