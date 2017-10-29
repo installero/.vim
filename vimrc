@@ -91,7 +91,7 @@ vnoremap // y/<C-R>"<CR>
 
 " Highlights long strings of code
 highlight ColorColumn ctermbg=22
-set colorcolumn=81
+set colorcolumn=81,121
 
 " Plugins
 " export vim-plug list
@@ -132,4 +132,4 @@ let g:syntastic_check_on_wq = 0
 let g:syntastic_ruby_checkers = ['rubocop']
 
 let g:syntastic_mode_map = { 'mode': 'passive', 'active_filetypes': [], 'passive_filetypes': [] }
-nnoremap <C-w>r :SyntasticCheck<CR>
+nnoremap <C-w>r :w<CR>:SyntasticCheck<CR>
