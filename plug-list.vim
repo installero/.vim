@@ -29,8 +29,12 @@ Plug 'mattn/gist-vim'
 " HTML
 Plug 'mattn/emmet-vim'
 
+" CSS
+Plug 'alexlafroscia/postcss-syntax.vim'
+
 " JS
 Plug 'kchmck/vim-coffee-script'
+Plug 'prettier/vim-prettier'
 
 " Elixir
 Plug 'elixir-lang/vim-elixir'
