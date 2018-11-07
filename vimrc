@@ -110,6 +110,7 @@ let g:rails_ctags_arguments = '--languages=ruby . $(bundle list --paths)'
 
 " lexima.vim
 call lexima#add_rule({'char': '«', 'input_after': '»'})
+let g:lexima_map_escape = ''
 
 " nerdcommenter
 let g:NERDSpaceDelims = 1
