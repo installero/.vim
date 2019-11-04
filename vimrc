@@ -102,7 +102,7 @@ endif
 " ctrlp.vim
 let g:ctrlp_map = '<c-f>'
 let g:ctrlp_custom_ignore = {
-  \ 'dir': 'node_modules\|deps\|_build'
+  \ 'dir': 'node_modules\|deps\|_build\|dist'
   \ }
 
 " vim-rails
@@ -128,7 +128,7 @@ set statusline+=%*
 
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 1
-let g:syntastic_check_on_open = 1
+let g:syntastic_check_on_open = 0
 let g:syntastic_check_on_wq = 0
 let g:syntastic_ruby_checkers = ['rubocop']
 let g:syntastic_javascript_checkers = ['eslint']
