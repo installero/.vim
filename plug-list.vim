@@ -10,6 +10,7 @@ Plug 'cohama/lexima.vim'
 Plug 'terryma/vim-multiple-cursors'
 Plug 'vim-syntastic/syntastic'
 Plug 'bronson/vim-trailing-whitespace'
+Plug 'wakatime/vim-wakatime'
 
 " Snipmate
 Plug 'tomtom/tlib_vim'
