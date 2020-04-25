@@ -6,7 +6,7 @@ Plug 'ervandew/supertab'
 Plug 'kien/ctrlp.vim'
 Plug 'bogado/file-line'
 Plug 'scrooloose/nerdcommenter'
-Plug 'cohama/lexima.vim'
+Plug 'cohama/lexima.vim', { 'commit': 'ab74d24daf815c30de367c6e3518296eb9a84537' }
 Plug 'terryma/vim-multiple-cursors'
 Plug 'vim-syntastic/syntastic'
 Plug 'bronson/vim-trailing-whitespace'
