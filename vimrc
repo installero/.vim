@@ -136,3 +136,6 @@ let g:syntastic_javascript_eslint_exe = 'npm run lint --'
 
 let g:syntastic_mode_map = { 'mode': 'passive', 'active_filetypes': ['javascript'], 'passive_filetypes': [] }
 nnoremap <C-w>r :w<CR>:SyntasticCheck<CR>
+
+" SnipMate
+let g:snipMate = { 'snippet_version' : 1 }
