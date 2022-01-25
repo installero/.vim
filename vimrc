@@ -13,13 +13,19 @@ if $COLORTERM == 'gnome-terminal'
   set t_Co=256
 endif
 
-colorscheme apprentice
+" Plugins
+" export vim-plug list
+if filereadable(expand("~/.vim/plug-list.vim"))
+  source ~/.vim/plug-list.vim
+endif
 
-" Change coursor color (red - normal, orange - insert)
+colorscheme dracula
+
+" Change coursor color (cyan - normal, yellow - insert)
 if &term =~ "xterm\\|rxvt"
-  let &t_SI = "\<Esc>]12;orange\x7"
-  let &t_EI = "\<Esc>]12;red\x7"
-  silent !echo -ne "\033]12;red\007"
+  let &t_SI = "\<Esc>]12;yellow\x7"
+  let &t_EI = "\<Esc>]12;cyan\x7"
+  silent !echo -ne "\033]12;cyan\007"
   autocmd VimLeave * silent !echo -ne "\033]112\007"
 endif
 
@@ -92,12 +98,6 @@ vnoremap // y/<C-R>"<CR>
 " Highlights long strings of code
 highlight ColorColumn ctermbg=22
 set colorcolumn=81,121
-
-" Plugins
-" export vim-plug list
-if filereadable(expand("~/.vim/plug-list.vim"))
-  source ~/.vim/plug-list.vim
-endif
 
 " ctrlp.vim
 let g:ctrlp_map = '<c-f>'

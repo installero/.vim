@@ -12,6 +12,9 @@ Plug 'vim-syntastic/syntastic'
 Plug 'bronson/vim-trailing-whitespace'
 Plug 'wakatime/vim-wakatime'
 
+" Appearance
+Plug 'dracula/vim', { 'as': 'dracula' }
+
 " Snipmate
 Plug 'tomtom/tlib_vim'
 Plug 'MarcWeber/vim-addon-mw-utils'
